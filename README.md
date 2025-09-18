@@ -14,6 +14,10 @@ Patient Record:
 Model:
 ![image alt](https://github.com/arnavthakur07/Patient-Records-Dashboard-Project/blob/main/Model.png)
 
+
+AddNewForm:
+![image alt](https://github.com/arnavthakur07/Patient-Records-Dashboard-Project/blob/main/addNewForm.png)
+
 ## 🚀 Features
 - Landing page with header + navigation (`Home`, `Patients`, `About`)
 - Patient records page:
