@@ -12,7 +12,7 @@ Patient Record:
 
 
 Model:
-![image alt](![image alt](https://github.com/arnavthakur07/Patient-Records-Dashboard-Project/blob/main/Patient.png))
+![image alt](https://github.com/arnavthakur07/Patient-Records-Dashboard-Project/blob/main/Model.png)
 
 ## 🚀 Features
 - Landing page with header + navigation (`Home`, `Patients`, `About`)
