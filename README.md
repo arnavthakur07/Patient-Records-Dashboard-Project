@@ -7,6 +7,9 @@ This project demonstrates React fundamentals, state management, and API integrat
 
 ---
 
+
+![image alt](https://github.com/arnavthakur07/Patient-Records-Dashboard-Project/blob/main/Patient.png)
+
 ## 🚀 Features
 - Landing page with header + navigation (`Home`, `Patients`, `About`)
 - Patient records page:
