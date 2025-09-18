@@ -15,7 +15,7 @@ Model:
 ![image alt](https://github.com/arnavthakur07/Patient-Records-Dashboard-Project/blob/main/Model.png)
 
 
-AddNewForm:
+AddNewPatient:
 ![image alt](https://github.com/arnavthakur07/Patient-Records-Dashboard-Project/blob/main/addNewForm.png)
 
 ## 🚀 Features
