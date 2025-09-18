@@ -1,0 +1,104 @@
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+
+:root{--container:1100px;--accent:#2b6cb0}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, Arial, sans-serif;margin:0;color:#111;background:#f7f8fb}
+.container{max-width:var(--container);margin:0 auto;padding:1rem}
+.navbar{background:white;border-bottom:1px solid #e6e9ef}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:0.75rem 0}
+.logo{margin:0;font-size:1.25rem;color:var(--accent)}
+nav a{margin-left:1rem;text-decoration:none;color:#333}
+.hero{padding:2rem 0;text-align:center}
+.patients-section{padding:1rem 0}
+.patients-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem}
+.patients-header input{padding:0.5rem;border:1px solid #d9dce6;border-radius:6px;min-width:220px}
+.patients-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.card{background:white;padding:1rem;border-radius:10px;box-shadow:0 6px 18px rgba(15,15,15,0.05)}
+.card h3{margin:0 0 .5rem}
+.card p{margin:.25rem 0;color:#444}
+.card button{margin-top:.5rem;padding:.5rem .75rem;border-radius:8px;border:none;background:var(--accent);color:white;cursor:pointer}
+.add-form{margin-top:1.5rem;background:#fff;padding:1rem;border-radius:10px}
+.add-form input{display:block;width:100%;margin:.5rem 0;padding:.5rem;border:1px solid #e2e6ef;border-radius:6px}
+.add-form button{padding:.5rem .75rem;border:none;background:#2f855a;color:white;border-radius:8px}
+.footer{padding:1rem 0;text-align:center;color:#666}
+.status{padding:1rem;text-align:center;color:#555}
+.status.error{color:#b00020}
+
+/* Modal */
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.45);display:flex;align-items:center;justify-content:center;padding:1rem}
+.modal{background:white;padding:1.25rem;border-radius:10px;max-width:520px;width:100%;position:relative}
+.modal .close{position:absolute;right:8px;top:8px;border:none;background:transparent;font-size:20px;cursor:pointer}
+
+/* Responsive tweaks */
+@media (max-width:600px){
+.nav-inner{flex-direction:column;gap:.5rem}
+.patients-header{flex-direction:column;align-items:flex-start;gap:.5rem}
+}
